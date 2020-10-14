@@ -8,7 +8,10 @@
             x:Class="Riigipuhad.MainPage">
     <TabbedPage.Children>
         <local:Januar/>
-        <local:Vebruar/>
+        <local:Veebruar/>
         <local:Mart/>
+        <local:April/>
+        <local:Mai/>
+        <local:Juuni/>
     </TabbedPage.Children>
 </TabbedPage>

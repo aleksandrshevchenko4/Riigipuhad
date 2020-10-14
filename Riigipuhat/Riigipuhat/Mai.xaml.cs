@@ -10,16 +10,16 @@ using Xamarin.Forms.Xaml;
 namespace Riigipuhad
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Mart : ContentPage
+    public partial class Mai : ContentPage
     {
-        Label lbl, lbl1, lbl2, lbl3, lbl4, lbl5;
+        Label lbl, lbl1, lbl2, lbl3, lbl4, lbl5, lbl6;
         Image img;
-        public Mart()
+        public Mai()
         {
-            Title = "Märt";
+            Title = "Mai";
             lbl = new Label()
             {
-                Text = "Emakeelepäev",
+                Text = "Nelipühade 1. püha",
                 FontAttributes = FontAttributes.Bold,
                 FontSize = 24,
                 TextColor = Color.Black,
@@ -29,15 +29,14 @@ namespace Riigipuhad
             };
             lbl1 = new Label()
             {
-                Text = "14. märts",
+                Text = "31. mai",
                 FontAttributes = FontAttributes.Italic,
                 Padding = new Thickness(10, 10, 10, 10),
             };
             lbl2 = new Label()
             {
-                Text = "Emakeelepäeva tähistame <strong style=\"color:black\">14. märtsil</strong>. Esimest korda peeti emakeelepäeva 1996. aastal. " +
-                "Selle tähtpäeva idee autoriks on Sonda kooliõpetaja <strong style=\"color:black\">Meinhard Laks</strong> (1922-2008), kes juba 1995. aastal hakkas koguma " +
-                "toetusallkirju meie emakeele kaitseks.",
+                Text = "Nelipühad on kristlik püha, millega mälestatakse Püha Vaimu laskumist apostlitele 50 päeva pärast Jeesuse Kristuse ülestõusmist ja 10 päeva" +
+                "pärast taevaminemispüha. See on kiriku sünnipäev.",
                 FontSize = 18,
                 TextColor = Color.Black,
                 Padding = new Thickness(10, 10, 10, 10),
@@ -45,30 +44,29 @@ namespace Riigipuhad
             };
             lbl3 = new Label()
             {
-                Text = "Ametlikult kuulutas riigikogu emakeelepäeva riiklikuks tähtpäevaks 1999. aastal.",
+                Text = "Nelipühad on seotud juudi pühaga šavuot, mis tähistab Jumalalt Moosesele Siinai mäel kümne käsu andmist. Šavuoti peetakse seitse nädalat" +
+                "pärast paasapühi ja ta on pärit kaugest paganlikust minevikust, mil tähistati lõikustänupüha.",
                 FontSize = 18,
                 TextColor = Color.Black,
                 Padding = new Thickness(10, 10, 10, 10),
             };
             lbl4 = new Label()
             {
-                Text = "14. märts valiti emakeelepäevaks kui eesti esimese kirjaniku Kristian Jaak Petersoni (1801-1822) sünnipäev. " +
-                "Tähelepanuväärne on, et Peterson, kes elas vaid 21 aastat, oskas vähemalt 16 keelt, kuid kirjutamiseks valis ta just eesti " +
-                "keele, keele, mida 19. sajandi algul kutsuti lihtsalt maakeeleks. Petersoni oodist Kuu pärineb mõte, mida on ikka ja jälle " +
-                "tsiteeritud:\n" +
-                "• kas siis selle maa keel \n" +
-                "• laulu tuules ei või \n" +
-                "• taevani tõustes üle \n" +
-                "• sigavikku omale otsida ?\n",
+                Text = "Eesti rahvakalendris kannavad nelipühad ka suvistepühade nime.",
                 FontSize = 18,
                 TextColor = Color.Black,
                 Padding = new Thickness(10, 10, 10, 10),
             };
             lbl5 = new Label()
             {
-                Text = "Alates 2008. aastast on saanud traditsiooniks kirjutada emakeelepäeval e-etteütlust. E-etteütluse kirjutamine " +
-                "on aastatega muutunud järjest populaarsemaks. E-etteütluse tekst loetakse ette Vikerraadios ja vastused saadetekase " +
-                "elektrooniliselt.",
+                Text = "Mälestatavast sündmusest jutustatakse Piiblis Apostlite tegude raamatu 2. peatükis.",
+                FontSize = 18,
+                TextColor = Color.Black,
+                Padding = new Thickness(10, 10, 10, 10),
+            };
+            lbl6 = new Label()
+            {
+                Text = "Nelipühade liturgiline värv on katoliku, luteri ja anglikaani kirikus tavapäraselt punane, õigeusu kirikutes reeglina roheline.",
                 FontSize = 18,
                 TextColor = Color.Black,
                 Padding = new Thickness(10, 10, 10, 10),
@@ -80,7 +78,7 @@ namespace Riigipuhad
             };
             StackLayout stackLayout = new StackLayout()
             {
-                Children = { lbl, lbl1, lbl2, lbl3, lbl4, lbl5, img },
+                Children = { lbl, lbl1, lbl2, lbl3, lbl4, lbl5, lbl6, img },
             };
             ScrollView scroll = new ScrollView { Content = stackLayout };
             Content = scroll;

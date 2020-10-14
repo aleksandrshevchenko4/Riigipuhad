@@ -10,16 +10,16 @@ using Xamarin.Forms.Xaml;
 namespace Riigipuhad
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Mart : ContentPage
+    public partial class April : ContentPage
     {
         Label lbl, lbl1, lbl2, lbl3, lbl4, lbl5;
         Image img;
-        public Mart()
+        public April()
         {
-            Title = "Märt";
+            Title = "April";
             lbl = new Label()
             {
-                Text = "Emakeelepäev",
+                Text = "Suur reede",
                 FontAttributes = FontAttributes.Bold,
                 FontSize = 24,
                 TextColor = Color.Black,
@@ -29,15 +29,14 @@ namespace Riigipuhad
             };
             lbl1 = new Label()
             {
-                Text = "14. märts",
+                Text = "10. aprill",
                 FontAttributes = FontAttributes.Italic,
                 Padding = new Thickness(10, 10, 10, 10),
             };
             lbl2 = new Label()
             {
-                Text = "Emakeelepäeva tähistame <strong style=\"color:black\">14. märtsil</strong>. Esimest korda peeti emakeelepäeva 1996. aastal. " +
-                "Selle tähtpäeva idee autoriks on Sonda kooliõpetaja <strong style=\"color:black\">Meinhard Laks</strong> (1922-2008), kes juba 1995. aastal hakkas koguma " +
-                "toetusallkirju meie emakeele kaitseks.",
+                Text = "Suur reede on kristlik püha, mil tähistatakse Jeesus Kristuse ristilöömist ja surma Kolgata mäel. See kuulub kokku rea teiste pühadega, mis seostuvad " +
+                "Jeesuse eluga. Suur reede eelneb lihavõttepühadele ning võib langeda kokku juudiusu paasapühadega.",
                 FontSize = 18,
                 TextColor = Color.Black,
                 Padding = new Thickness(10, 10, 10, 10),
@@ -45,30 +44,25 @@ namespace Riigipuhad
             };
             lbl3 = new Label()
             {
-                Text = "Ametlikult kuulutas riigikogu emakeelepäeva riiklikuks tähtpäevaks 1999. aastal.",
+                Text = "Kanooniliste evangeeliumite järgi löödi Jeesus tõenäoliselt risti reedel (päev enne sabatit; Johannese evangeelium 19:42). Tõenäoliselt toimus see kas" +
+                "aastal 33 või 34 (nagu pakkus välja Isaac Newton, võrreldes kuuseise ning piibliaegse ja juuliuse kalendri erinevust). Kuuvarjutuse järgi otsustades (ja" +
+                "kooskõlas Peetruse sõnadega Apostlite tegude raamatus, 2:20) toimus see reedel, 3. aprillil 33. aastal.",
                 FontSize = 18,
                 TextColor = Color.Black,
                 Padding = new Thickness(10, 10, 10, 10),
             };
             lbl4 = new Label()
             {
-                Text = "14. märts valiti emakeelepäevaks kui eesti esimese kirjaniku Kristian Jaak Petersoni (1801-1822) sünnipäev. " +
-                "Tähelepanuväärne on, et Peterson, kes elas vaid 21 aastat, oskas vähemalt 16 keelt, kuid kirjutamiseks valis ta just eesti " +
-                "keele, keele, mida 19. sajandi algul kutsuti lihtsalt maakeeleks. Petersoni oodist Kuu pärineb mõte, mida on ikka ja jälle " +
-                "tsiteeritud:\n" +
-                "• kas siis selle maa keel \n" +
-                "• laulu tuules ei või \n" +
-                "• taevani tõustes üle \n" +
-                "• sigavikku omale otsida ?\n",
+                Text = "Enamikus kristlikes usulahkudes on tavaks pidada suurel reedel erilisi jumalateenistusi. Nendeks puhkudeks on kirjutatud ka arvukalt muusikat," +
+                "näiteks Johann Sebastian Bachi Matteuse passioon.",
                 FontSize = 18,
                 TextColor = Color.Black,
                 Padding = new Thickness(10, 10, 10, 10),
             };
             lbl5 = new Label()
             {
-                Text = "Alates 2008. aastast on saanud traditsiooniks kirjutada emakeelepäeval e-etteütlust. E-etteütluse kirjutamine " +
-                "on aastatega muutunud järjest populaarsemaks. E-etteütluse tekst loetakse ette Vikerraadios ja vastused saadetekase " +
-                "elektrooniliselt.",
+                Text = "Katoliku kirikus on suur reede paastupäev. Luteri kirikus oli suur reede 16.-20. sajandil aasta suurim püha, mil töötegemine oli keelatud ja kõige suurem hulk" +
+                "inimesi tuli armulauale. Viimasel ajal on suuremad luterlikud kirikud siiski hakanud loobuma kombest korraldada suurel reedel armulauda.",
                 FontSize = 18,
                 TextColor = Color.Black,
                 Padding = new Thickness(10, 10, 10, 10),
