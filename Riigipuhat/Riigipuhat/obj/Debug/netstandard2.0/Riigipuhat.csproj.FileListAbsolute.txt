@@ -1,0 +1,7 @@
+C:\Users\opilane\source\repos\Riigipuhat\Riigipuhat\Riigipuhat\obj\Debug\netstandard2.0\Riigipuhat.csprojAssemblyReference.cache
+C:\Users\opilane\source\repos\Riigipuhat\Riigipuhat\Riigipuhat\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\opilane\source\repos\Riigipuhat\Riigipuhat\Riigipuhat\obj\Debug\netstandard2.0\Januar.xaml.g.cs
+C:\Users\opilane\source\repos\Riigipuhat\Riigipuhat\Riigipuhat\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\opilane\source\repos\Riigipuhat\Riigipuhat\Riigipuhat\obj\Debug\netstandard2.0\Riigipuhat.AssemblyInfoInputs.cache
+C:\Users\opilane\source\repos\Riigipuhat\Riigipuhat\Riigipuhat\obj\Debug\netstandard2.0\Riigipuhat.AssemblyInfo.cs
+C:\Users\opilane\source\repos\Riigipuhat\Riigipuhat\Riigipuhat\obj\Debug\netstandard2.0\Riigipuhat.csproj.CoreCompileInputs.cache

@@ -3,7 +3,7 @@ using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Riigipuhat
+namespace Riigipuhad
 {
     public partial class App : Application
     {
@@ -11,7 +11,12 @@ namespace Riigipuhat
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new aastaaeg();
+        }
+
+        private void InitializeComponent()
+        {
+            throw new NotImplementedException();
         }
 
         protected override void OnStart()

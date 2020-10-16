@@ -13,5 +13,11 @@
         <local:April/>
         <local:Mai/>
         <local:Juuni/>
+        <local:Juuli/>
+        <local:August/>
+        <local:September/>
+        <local:Oktoober/>
+        <local:November/>
+        <local:Detsember/>
     </TabbedPage.Children>
 </TabbedPage>
